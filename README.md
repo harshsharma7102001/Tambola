@@ -16,11 +16,8 @@ Game offers a perfect blend of strategy and luck, making it a must-try for all g
 - Interactive UI
 - Real-time updates
 
-## GamePlay
 
-![Game Play](https://github.com/harshsharma7102001/Tambola/blob/master/images/playing.gif)
-
-##  Game Screenshots
+##  Game Rules
 Game Setup: In “Tambola”, each player creates a matrix and fills it with values from 1 to 25 based on their preference.
 
 Game Start: Once both players have set up their tables, the game begins.
@@ -32,6 +29,10 @@ Scoring: Players earn points when all the values in a row, column, or both diago
 Winning: The game continues until a player reaches a score of 5. This player is then declared the winner.
 
 Fun and Excitement: Whether you’re playing against the computer or challenging a friend, “Tambola” promises a fun and exciting gaming experience. Enjoy the game and may the best player win! 😊
+
+## GamePlay
+
+![Game Play](https://github.com/harshsharma7102001/Tambola/blob/master/images/playing.gif)
 
 ## Screenshots
 <img src="https://github.com/harshsharma7102001/Tambola/blob/master/images/splash.png" width="280px"/> <img src="https://github.com/harshsharma7102001/Tambola/blob/master/images/main_Scrn_one.png" width="280px"/>
