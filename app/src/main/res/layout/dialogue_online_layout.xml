@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Congrat's You won"
+        android:textSize="25sp"
+        android:id="@+id/winnerText"
+        android:fontFamily="@font/chewy"
+        android:textAlignment="center"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:textSize="20sp"
+            android:fontFamily="@font/jua"
+            android:textColor="@color/black"
+            android:text="Your Score: "
+            android:id="@+id/uText"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:fontFamily="@font/jua"
+            android:layout_toRightOf="@id/uText"
+            android:textColor="#DC1111"
+            android:id="@+id/uScore"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:fontFamily="@font/jua"
+            android:textColor="#E81313"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5sp"
+            android:id="@+id/compScore"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="@font/jua"
+            android:textColor="@color/black"
+            android:text="Opp Score: "
+            android:layout_toStartOf="@id/compScore"/>
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:textSize="20sp"
+        android:id="@+id/replay"
+        android:fontFamily="@font/jua"
+        android:drawableLeft="@drawable/ic_replay"
+        android:background="@drawable/btn"
+        app:backgroundTint="@null"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

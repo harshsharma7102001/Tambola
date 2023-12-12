@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "928345329510",
+    "project_id": "tambola-cfde3",
+    "storage_bucket": "tambola-cfde3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928345329510:android:98092346ee89ca611102a7",
+        "android_client_info": {
+          "package_name": "com.world4tech.tambola"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwccLwEYcD-eqfV5q7IOZJ_iDsr8JN1FY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
